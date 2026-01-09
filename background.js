@@ -12,7 +12,8 @@ const BLOCKED_SITES = [
   "*://*.snapchat.com/*",
   "*://*.pinterest.com/*",
   "*://*.tumblr.com/*",
-  "*://*.discord.com/*"
+  "*://*.discord.com/*",
+  "*://*.linkedin.com/*",
 ];
 
 // Track whether blocking is enabled
