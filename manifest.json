@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Distraction Blocker",
+  "version": "1.0",
+  "description": "Blocks distracting websites to help you stay focused.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/icon-48.svg"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Distraction Blocker"
+  },
+  "icons": {
+    "48": "icons/icon-48.svg",
+    "96": "icons/icon-96.svg"
+  }
+}
